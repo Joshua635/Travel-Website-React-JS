@@ -1,0 +1,27 @@
+/* Contact.css */
+
+/* Centering the form with a box model */
+.contact-form-box {
+    width: 100%;
+    max-width: 600px; /* Limit the form width */
+    background-color: #f8f9fa; /* Light background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    padding: 2rem; /* Box padding */
+    margin-top: 20px;
+  }
+  
+  /* Center the text inside the form */
+  .text-center {
+    text-align: center;
+  }
+  
+  .form-control {
+    margin-bottom: 1rem; /* Margin between inputs */
+  }
+  
+  button {
+    width: 50%;
+  }
+  

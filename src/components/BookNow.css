@@ -1,0 +1,34 @@
+/* BookNow.css */
+
+/* Centering the container and ensuring full viewport height */
+.container {
+    min-height: 100vh; /* Full viewport height */
+    padding-top: 1rem;
+  }
+  
+  /* Form container styling */
+  .form-container {
+    max-width: 500px; /* Maximum width for the form */
+    width: 100%; /* Full width up to the max-width */
+    padding: 2rem; /* Padding around the form */
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for a lifted effect */
+  }
+  
+  /* Text alignment and spacing */
+  h2 {
+    font-size: 2rem; /* Font size for the heading */
+    color: #343a40; /* Dark text color */
+  }
+  
+  /* Centering button and ensuring it takes full width */
+  .btn-success {
+    font-size: 1.125rem; /* Slightly larger font size for the button */
+  }
+  
+  /* Form group styling for spacing */
+  .form-group {
+    margin-bottom: 1.5rem; /* Space between form elements */
+  }
+  

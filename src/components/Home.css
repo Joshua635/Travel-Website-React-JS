@@ -1,0 +1,41 @@
+/* Home.css */
+
+/* Home container styles */
+
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+  }
+
+  
+  
+  /* Background video styles */
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure the video is behind the content */
+    background-image: url('../components/giphy.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Content container styles */
+  .content-container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Additional styling to make the text white */
+  .jumbotron {
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to the jumbotron */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  

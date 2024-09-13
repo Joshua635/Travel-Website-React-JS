@@ -1,0 +1,42 @@
+/* Packages.css */
+
+/* Styling for the card transition effect */
+.transition-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .transition-card:hover {
+    cursor: pointer;
+    transform: scale(1.05); /* Slightly scale up the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .card-img-top {
+    transition: opacity 0.3s ease;
+  }
+  
+  .transition-card:hover .card-img-top {
+    opacity: 0.8; /* Slightly fade image on hover */
+  }
+  
+  .card-body {
+    background-color: #f8f9fa; /* Light background for card body */
+    transition: background-color 0.3s ease;
+  }
+  
+  .transition-card:hover .card-body {
+    background-color: #e9ecef; /* Slightly darker background on hover */
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
